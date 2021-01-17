@@ -1,0 +1,3 @@
+#!/bin/bash
+CLIPBOARD=${CLIPBOARD:=~/clip/clip.txt}
+cat $CLIPBOARD | tac | sed '/♕/Q' | tac

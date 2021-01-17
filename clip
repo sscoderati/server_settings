@@ -1,0 +1,4 @@
+#!/bin/bash
+CLIPBOARD=${CLIPBOARD:=~/clip/clip.txt} # 1
+echo ♕ >> $CLIPBOARD                 # 2
+cat - >> $CLIPBOARD                        # 3
